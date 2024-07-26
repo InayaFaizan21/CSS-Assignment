@@ -1,0 +1,728 @@
+
+    nav{
+        
+background-color: rgb(27, 121, 108);
+height:15vh ;
+position: relative;
+
+
+    }
+    nav >img{
+width: 100px; 
+height:100px ;
+vertical-align: middle;
+size: 100000px; 
+
+
+    }
+
+nav > ul{
+    color:white ;
+ float: right;
+margin: right 70px; 
+margin: top 35px;
+
+font-family: "Playwrite HR", Agbalumo;
+}
+
+li{
+    display: inline-block;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;  
+   
+
+}
+
+li:hover {
+        color:rgb(7, 7, 7);
+        text-decoration: underline;
+        text-decoration-color: white;
+        text-decoration-thickness: 10%;
+        cursor: pointer;
+}
+     #xyz{
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+     }
+
+     #text {
+        background-color: #91ecd979;
+        width: 30%;
+        position: absolute;
+        top: 140px;
+        right: 50px;
+        padding: 10px;
+      }
+      #text > h1 {
+        font-family: "Playwrite HR", cursive;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #0f0f0f;
+        text-decoration: underline;
+        text-decoration-thickness: 5px;
+      }
+      #text > p {
+        color: #252424;
+        text-align: justify;
+      } 
+
+      #slider {
+        position: relative;
+        /* margin-top: 50px; */
+      }
+
+      #about-section {
+        width: 100%;
+      }
+      #about-section > #left {
+        width: 50%;
+        float: left;
+      }
+      #left > img {
+        width: 100%;
+      }
+      #right {
+        width: 50%;
+        float: right;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      #right >p:first-letter{
+        color: #196b63;
+        font-size: 36px;
+        font-family: "Playwrite HR", cursive;
+      }
+      #right > p {
+        text-align: justify;
+        
+      }
+      #items {
+        clear: both;
+        width: 100%;
+        text-align: center;
+       
+       display: inline-block;
+
+      }
+     #card > h1 {
+        background-color: #196b63;
+        font-size: 36px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+      #items > #item {
+        width: 30%;
+        border: 2px solid #ffffff;
+        padding: 5px;
+        float: left;
+        margin-left: 25px;
+      }
+      #card:hover {
+        box-shadow: 10px 5px 5px #000;
+      }
+
+      #card > img {
+        width: 100%;
+      }
+      #item > p {
+        text-align: justify;
+      }
+      button {
+        background-color: #196b63;
+        font-size: 24px;
+        border-radius: 10px;
+        color: white;
+        float: right;
+        border: none;
+        width: 150px;
+        height: 50px;
+      }
+      button:hover{
+        color: #196b63;
+        background-color: rgb(199, 199, 201);
+        cursor: pointer;
+        font-weight: bold;
+      }
+      #about{
+        background-color: #196b63;
+        text-align: center;
+      }
+      #about{
+
+      
+      background-color: #196b63;
+      font-size: 36px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: bolder;
+      }
+     
+
+/* Container for the grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px; /* Space between cards */
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto; /* Center the grid */
+}
+
+/* Style for each card */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image inside card */
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between
+  flex-direction: column
+  display: flex 
+}
+
+/* Title inside card */
+.card h3 {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+/* Description inside card */
+.card p {
+  color: #555;
+}
+#items > h1{
+  background-color: #196b63;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-weight
+}
+#items{
+  background-color: #196b63;
+  text-align: center;
+}
+#btn{
+  background-color: #196b63;
+  font - size: 24 px;
+  border-radius:10 px;
+  color: #ffffff;
+  align:center ;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
